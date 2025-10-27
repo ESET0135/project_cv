@@ -2,7 +2,7 @@ name: CI/CD - Build, Push, and Deploy
  
 on:
   push:
-    branches: [ "main" ]
+    branches:  master
  
 env:
   IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/cv_project
